@@ -37,9 +37,9 @@ function Home() {
       <div className="jumbotron text-center mt-5" id="mainHeader">
         <div className="container">
           {/* title */}
-          <h1 className="display-3">Awesome App</h1>
+          <h1 className="display-3"> Healthy Homes</h1>
           {/* subtitle */}
-          <p className="lead">This is a fantastic app.</p>
+          <p className="lead">Healthier Homes Zero Waste</p>
 
           <hr className="my-4" />
           <p>Want to know more? Join our mailing list</p>
@@ -69,8 +69,8 @@ function Home() {
         <div className="container-fluid text-center">
 
           <div className="pb-5">
-            <h3 className="display-4">Why this App is so awesome</h3>
-            <p>This is why this app is so awesome, you'll never need another one!</p>
+            <h3 className="display-4">Our Services</h3>
+            
           </div>
           {/* cards */}
           <div className="row justify-content-center">
@@ -83,14 +83,12 @@ function Home() {
                   alt="..." />
                 <div className="card-body">
                   <h5 className="card-title">
-                    <span>
-                      <i className="fas fa-mobile"></i>
-                    </span>
+                   
                     <br />
-                    Card title
+                    Healthy Homes
                   </h5>
                   <p className="card-text">
-                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                  Auckland’s housing crisis can be solved by using existing homes wisely and sustainable design of new builds.
                   </p>
                 </div>
               </div>
@@ -104,14 +102,12 @@ function Home() {
                   alt="..." />
                 <div className="card-body">
                   <h5 className="card-title">
-                    <span>
-                      <i className="fas fa-mobile-alt"></i>
-                    </span>
+                   
                     <br />
-                    Card title
+                    Education
                   </h5>
                   <p className="card-text">
-                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                  We facilitate environmental education for children and adults, and advice from technical experts.
                   </p>
                 </div>
               </div>
@@ -125,14 +121,71 @@ function Home() {
                   alt="..." />
                 <div className="card-body">
                   <h5 className="card-title">
-                    <span>
-                      <i className="fas fa-sms"></i>
-                    </span>
+                   
                     <br />
-                    Card title
+                    Community
                   </h5>
                   <p className="card-text">
-                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                  We are an online community resource centre for schools, businesses and individuals wanting to make sustainable changes in their lives.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row justify-content-center mt-5">
+            {/* card 1 */}
+            <div className="col-lg-4">
+              <div className="card">
+                <img
+                  src="https://images.unsplash.com/photo-1464986411762-a4275fbaf3f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80"
+                  className="card-img-top"
+                  alt="..." />
+                <div className="card-body">
+                  <h5 className="card-title">
+                   
+                    <br />
+                    Homefit: Healthy Home Assessments
+                  </h5>
+                  <p className="card-text">
+                  Is your home healthy? Find out for sure with one of our impartial HomeFit Assessments
+                  </p>
+                </div>
+              </div>
+            </div>
+            {/* card 2 */}
+            <div className="col-lg-4">
+              <div className="card">
+                <img
+                  src="https://images.unsplash.com/photo-1493500146995-7167488df174?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=755&q=80"
+                  className="card-img-top"
+                  alt="..." />
+                <div className="card-body">
+                  <h5 className="card-title">
+                   
+                    <br />
+                    Zero Waste
+                  </h5>
+                  <p className="card-text">
+                  Right now, one of our biggest issues is waste. Sustain and Enable offers resources, workshops and educational programmes designed to help us all minimise and manage waste better.
+                  </p>
+                </div>
+              </div>
+            </div>
+            {/* card 3 */}
+            <div className="col-lg-4">
+              <div className="card">
+                <img
+                  src="https://images.unsplash.com/photo-1522125670776-3c7abb882bc2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+                  className="card-img-top"
+                  alt="..." />
+                <div className="card-body">
+                  <h5 className="card-title">
+                   
+                    <br />
+                    Low-Carbon Living
+                  </h5>
+                  <p className="card-text">
+                  Sustainability is about making sure that the natural resources we use today are still available for future generations to use as well.
                   </p>
                 </div>
               </div>
