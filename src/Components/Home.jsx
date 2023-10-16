@@ -78,7 +78,7 @@ function Home() {
             <div className="col-lg-4">
               <div className="card">
                 <img
-                  src="./texture1a/jpeg"
+                  src="./texture1a.jpeg"
                   className="card-img-top"
                   alt="..." />
                 <div className="card-body">
@@ -97,7 +97,7 @@ function Home() {
             <div className="col-lg-4">
               <div className="card">
                 <img
-                  src="./texture2a/jpeg"
+                  src="./texture2a.jpeg"
                   className="card-img-top"
                   alt="..." />
                 <div className="card-body">
@@ -116,7 +116,7 @@ function Home() {
             <div className="col-lg-4">
               <div className="card">
                 <img
-                  src="./texture3a/jpeg"
+                  src="./texture3a.jpeg"
                   className="card-img-top"
                   alt="..." />
                 <div className="card-body">
@@ -137,7 +137,7 @@ function Home() {
             <div className="col-lg-4">
               <div className="card">
                 <img
-                  src="./texture4a/jpeg"
+                  src="./texture4a.jpeg"
                   className="card-img-top"
                   alt="..." />
                 <div className="card-body">
@@ -156,7 +156,7 @@ function Home() {
             <div className="col-lg-4">
               <div className="card">
                 <img
-                  src="./texture5a/jpeg"
+                  src="./texture5a.jpeg"
                   className="card-img-top"
                   alt="..." />
                 <div className="card-body">
@@ -175,7 +175,7 @@ function Home() {
             <div className="col-lg-4">
               <div className="card">
                 <img
-                  src="./texture6a/jpeg"
+                  src="./texture6a.jpeg"
                   className="card-img-top"
                   alt="..." />
                 <div className="card-body">
