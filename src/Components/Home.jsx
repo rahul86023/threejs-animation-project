@@ -78,7 +78,7 @@ function Home() {
             <div className="col-lg-4">
               <div className="card">
                 <img
-                  src="https://images.unsplash.com/photo-1464986411762-a4275fbaf3f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80"
+                  src="./texture1a/jpeg"
                   className="card-img-top"
                   alt="..." />
                 <div className="card-body">
@@ -97,7 +97,7 @@ function Home() {
             <div className="col-lg-4">
               <div className="card">
                 <img
-                  src="https://images.unsplash.com/photo-1493500146995-7167488df174?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=755&q=80"
+                  src="./texture2a/jpeg"
                   className="card-img-top"
                   alt="..." />
                 <div className="card-body">
@@ -116,7 +116,7 @@ function Home() {
             <div className="col-lg-4">
               <div className="card">
                 <img
-                  src="https://images.unsplash.com/photo-1522125670776-3c7abb882bc2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+                  src="./texture3a/jpeg"
                   className="card-img-top"
                   alt="..." />
                 <div className="card-body">
@@ -137,7 +137,7 @@ function Home() {
             <div className="col-lg-4">
               <div className="card">
                 <img
-                  src="https://images.unsplash.com/photo-1464986411762-a4275fbaf3f0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80"
+                  src="./texture4a/jpeg"
                   className="card-img-top"
                   alt="..." />
                 <div className="card-body">
@@ -156,7 +156,7 @@ function Home() {
             <div className="col-lg-4">
               <div className="card">
                 <img
-                  src="https://images.unsplash.com/photo-1493500146995-7167488df174?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=755&q=80"
+                  src="./texture5a/jpeg"
                   className="card-img-top"
                   alt="..." />
                 <div className="card-body">
@@ -175,7 +175,7 @@ function Home() {
             <div className="col-lg-4">
               <div className="card">
                 <img
-                  src="https://images.unsplash.com/photo-1522125670776-3c7abb882bc2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
+                  src="./texture6a/jpeg"
                   className="card-img-top"
                   alt="..." />
                 <div className="card-body">
