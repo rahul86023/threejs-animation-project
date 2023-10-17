@@ -10,7 +10,7 @@ import { OrbitControls } from "@react-three/drei";
 
 import Box from "./Box";
 
-export default function CanvasContainer() {
+export default function CanvasContainer({texture}) {
   return (
     <Wrapper className="App">
       {/* <Background /> */}
@@ -20,7 +20,7 @@ export default function CanvasContainer() {
         <ambientLight intensity={2} />
         <directionalLight position={[-2, 5, 2]} intensity={1} />
         <Suspense fallback={null}>
-          <Box />
+          <Box texture={texture} />
         </Suspense>
       </Canvas>
     </Wrapper>

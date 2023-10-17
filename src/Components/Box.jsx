@@ -2,9 +2,9 @@
 
 import { useLoader } from "@react-three/fiber";
 import { TextureLoader } from "three";
-import texture from "../../public/Rahul.jpeg";
+//import texture from "../../public/Rahul.jpeg";
 
-export default function Box() {
+export default function Box({texture}) {
   const colorMap = useLoader(TextureLoader, texture);
   return (
     <mesh rotation={[90, 0, 20]}>

@@ -39,12 +39,12 @@
 import { useState } from 'react';
 import './App.css';
 import CanvasContainer from './Components/CanvasContainer';
-
+import texture from "../public/Rahul.jpeg";
 
 function App() {
   return (
     <>
-      <CanvasContainer />
+      <CanvasContainer texture={texture}/>
     </>
   );
 }
