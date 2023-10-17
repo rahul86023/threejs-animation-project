@@ -1,5 +1,5 @@
 import React from 'react';
-
+import CanvasContainer from './CanvasContainer';
 function Home() {
   return (
     <><header id="home">
@@ -77,10 +77,11 @@ function Home() {
             {/* card 1 */}
             <div className="col-lg-4">
               <div className="card">
-                <img
+                {/* <img
                   src="./texture1a.jpeg"
                   className="card-img-top"
-                  alt="..." />
+                  alt="..." /> */}
+                  <CanvasContainer texture="./texture1a.jpeg"/>
                 <div className="card-body">
                   <h5 className="card-title">
                    
@@ -96,10 +97,11 @@ function Home() {
             {/* card 2 */}
             <div className="col-lg-4">
               <div className="card">
-                <img
+                {/* <img
                   src="./texture2a.jpeg"
                   className="card-img-top"
-                  alt="..." />
+                  alt="..." /> */}
+                    <CanvasContainer texture="./texture2a.jpeg"/>
                 <div className="card-body">
                   <h5 className="card-title">
                    
@@ -115,10 +117,11 @@ function Home() {
             {/* card 3 */}
             <div className="col-lg-4">
               <div className="card">
-                <img
+                {/* <img
                   src="./texture3a.jpeg"
                   className="card-img-top"
-                  alt="..." />
+                  alt="..." /> */}
+                    <CanvasContainer texture="./texture3a.jpeg"/>
                 <div className="card-body">
                   <h5 className="card-title">
                    
@@ -136,10 +139,11 @@ function Home() {
             {/* card 1 */}
             <div className="col-lg-4">
               <div className="card">
-                <img
+                {/* <img
                   src="./texture4a.jpeg"
                   className="card-img-top"
-                  alt="..." />
+                  alt="..." /> */}
+                    <CanvasContainer texture="./texture4a.jpeg"/>
                 <div className="card-body">
                   <h5 className="card-title">
                    
@@ -155,10 +159,11 @@ function Home() {
             {/* card 2 */}
             <div className="col-lg-4">
               <div className="card">
-                <img
+                {/* <img
                   src="./texture5a.jpeg"
                   className="card-img-top"
-                  alt="..." />
+                  alt="..." /> */}
+                    <CanvasContainer texture="./texture5a.jpeg"/>
                 <div className="card-body">
                   <h5 className="card-title">
                    
@@ -174,10 +179,11 @@ function Home() {
             {/* card 3 */}
             <div className="col-lg-4">
               <div className="card">
-                <img
+                {/* <img
                   src="./texture6a.jpeg"
                   className="card-img-top"
-                  alt="..." />
+                  alt="..." /> */}
+                    <CanvasContainer texture="./texture6a.jpeg"/>
                 <div className="card-body">
                   <h5 className="card-title">
                    

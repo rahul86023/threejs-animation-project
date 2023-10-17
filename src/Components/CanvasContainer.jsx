@@ -14,7 +14,7 @@ export default function CanvasContainer({texture}) {
   return (
     <Wrapper className="App">
       {/* <Background /> */}
-      <TextSection />
+      {/* <TextSection /> */}
       <Canvas className="canvas">
         <OrbitControls enableZoom={false} />
         <ambientLight intensity={2} />

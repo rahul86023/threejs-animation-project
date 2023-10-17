@@ -38,13 +38,13 @@
 // `;
 import { useState } from 'react';
 import './App.css';
-import CanvasContainer from './Components/CanvasContainer';
+import Home from './components/Home';
 import texture from "../public/Rahul.jpeg";
 
 function App() {
   return (
     <>
-      <CanvasContainer texture={texture}/>
+      <Home/>
     </>
   );
 }
