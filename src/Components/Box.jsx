@@ -2,7 +2,7 @@
 
 import { useLoader } from "@react-three/fiber";
 import { TextureLoader } from "three";
-//import texture from "../../public/Rahul.jpeg";
+
 
 export default function Box({texture}) {
   const colorMap = useLoader(TextureLoader, texture);

@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unknown-property */
-import React from "react";
+
 import styled from "styled-components";
-import TextSection from "./TextSection";
+
 
 import { Suspense } from "react";
 
@@ -13,8 +13,7 @@ import Box from "./Box";
 export default function CanvasContainer({texture}) {
   return (
     <Wrapper className="App">
-      {/* <Background /> */}
-      {/* <TextSection /> */}
+ 
       <Canvas className="canvas">
         <OrbitControls enableZoom={false} />
         <ambientLight intensity={2} />

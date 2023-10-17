@@ -1,4 +1,4 @@
-import React from 'react';
+
 import CanvasContainer from './CanvasContainer';
 function Home() {
   return (
